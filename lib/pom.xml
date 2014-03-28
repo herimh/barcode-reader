@@ -9,4 +9,12 @@
 
     <name>Barcode reader library</name>
     <url>http://maven.apache.org</url>
+
+    <distributionManagement>
+        <repository>
+            <id>https://github.com/herimh/barcode-reader</id>
+            <name>Herimh github repository</name>
+            <url>scp:git@github.com:herimh/barcode-reader</url>
+        </repository>
+    </distributionManagement>
 </project>
